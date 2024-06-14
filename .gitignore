@@ -1,0 +1,5 @@
+.env
+/node_modules
+/src/keys.json
+/src/usedKeys.json
+/src/users.json
