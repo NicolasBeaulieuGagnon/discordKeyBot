@@ -12,6 +12,9 @@ const client = new Client({
   partials: [Partials.Channel, Partials.Message, Partials.Reaction],
 });
 
+const AUTHOR_ID = "your_author_id_here";
+const LOGIN_KEY = "your_login_key_here";
+
 const messageToMatch = "React 👍 to this message to receive your key!";
 
 let availableKeys = [];
